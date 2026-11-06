@@ -3,9 +3,21 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Zhe Wang's academic homepage. Research in AI for science, AIDD, and agentic research for scientific discovery.">
+    <meta name="description" content="Zhe Wang researches AI for Science, AI-driven drug discovery, graph learning, and agentic scientific discovery. Open to opportunities in AI4Sci, LLM post-training, RSI, and computer science or interdisciplinary faculty roles.">
     <meta name="theme-color" content="#ffffff">
     <title>Zhe Wang | Academic Homepage</title>
+    <link rel="canonical" href="https://nickspark.github.io/">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Zhe Wang",
+        "url": "https://nickspark.github.io/",
+        "affiliation": { "@type": "CollegeOrUniversity", "name": "Hong Kong University of Science and Technology" },
+        "sameAs": ["https://scholar.google.com/citations?user=bb7F_OQAAAAJ"],
+        "description": "PhD student in the Individualized Interdisciplinary Program. Research interests include AI for Science (AI4Sci), AI-driven drug discovery, AI for chemistry, graph learning, and agentic research for scientific discovery. Open to research and industry opportunities in AI4Sci, LLM post-training, and recursive self-improvement (RSI), as well as faculty positions in computer science and interdisciplinary fields."
+      }
+    </script>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
   </head>
@@ -29,8 +41,15 @@
         <p class="affiliation">Individualized Interdisciplinary Program<br>Hong Kong University of Science and Technology</p>
         <p class="interests"><strong>Research Interests</strong><br>AI4Sci · AIDD · AI4Chem · Graph Learning · RSI</p>
         <div class="profile-links">
-          <a href="mailto:zwangec@connect.ust.hk">Email <span aria-hidden="true">↗</span></a>
           <button type="button" data-dialog-open="wechat-dialog">WeChat</button>
+          <div class="email-row">
+            <a href="mailto:zwangec@connect.ust.hk">Email <span aria-hidden="true">↗</span></a>
+            <button class="copy-email" type="button" data-copy-email="zwangec@connect.ust.hk" aria-label="Copy email address" title="Copy email address">
+              <svg class="icon-copy" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>
+              <svg class="icon-check" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m20 6-11 11-5-5"/></svg>
+            </button>
+            <span class="copy-status sr-only" role="status" aria-live="polite"></span>
+          </div>
           <a href="https://scholar.google.com/citations?user=bb7F_OQAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a>
         </div>
       </aside>
@@ -104,6 +123,18 @@
         </section>
       </main>
     </div>
+
+    <section class="court-invite" aria-labelledby="court-invite-title">
+      <div class="wrap court-invite-inner">
+        <div>
+          <h2 id="court-invite-title">A little court time</h2>
+        </div>
+        <button class="court-invite-button" id="court-toggle" type="button" aria-expanded="false" aria-controls="court-play">Let's play pickleball! <span aria-hidden="true">↗</span></button>
+      </div>
+      <div class="wrap court-play" id="court-play" hidden>
+        <iframe id="court-game" title="Pickleball game" loading="lazy"></iframe>
+      </div>
+    </section>
 
     <dialog class="wechat-dialog" id="wechat-dialog" aria-labelledby="wechat-title">
       <div class="dialog-header"><h2 id="wechat-title">WeChat</h2><form method="dialog"><button class="dialog-close" type="submit" aria-label="Close WeChat QR code" title="Close">×</button></form></div>

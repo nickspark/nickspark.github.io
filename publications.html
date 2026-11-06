@@ -29,8 +29,15 @@
         <p class="affiliation">Individualized Interdisciplinary Program<br>Hong Kong University of Science and Technology</p>
         <p class="interests"><strong>Research Interests</strong><br>AI4Sci · AIDD · AI4Chem · Graph Learning · RSI</p>
         <div class="profile-links">
-          <a href="mailto:zwangec@connect.ust.hk">Email <span aria-hidden="true">↗</span></a>
           <button type="button" data-dialog-open="wechat-dialog">WeChat</button>
+          <div class="email-row">
+            <a href="mailto:zwangec@connect.ust.hk">Email <span aria-hidden="true">↗</span></a>
+            <button class="copy-email" type="button" data-copy-email="zwangec@connect.ust.hk" aria-label="Copy email address" title="Copy email address">
+              <svg class="icon-copy" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>
+              <svg class="icon-check" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m20 6-11 11-5-5"/></svg>
+            </button>
+            <span class="copy-status sr-only" role="status" aria-live="polite"></span>
+          </div>
           <a href="https://scholar.google.com/citations?user=bb7F_OQAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a>
         </div>
       </aside>
@@ -45,11 +52,13 @@
               <h3><a href="https://doi.org/10.1002/advs.78094" target="_blank" rel="noopener noreferrer">Bridging Chemical Literature and Molecular Graphs: LLM-Augmented Enantioselectivity Prediction for Iridium-Catalyzed Asymmetric C–H Borylation</a></h3>
               <p class="authors"><strong>Zhe Wang</strong>, Baohua Zhang, Yi Isaac Yang, Yuan Yao, Yinwu Li</p>
               <p class="venue"><em>Advanced Science</em>, 2026</p>
+              <details class="paper-details"><summary>Summary</summary><p>STEREO-Lit combines three-dimensional representations of catalysts, substrates, and products with mechanistic information extracted from chemical literature. It predicts enantioselectivity for iridium-catalyzed asymmetric C–H borylation and helps explore new catalyst–substrate combinations.</p></details>
             </article>
             <article class="publication">
               <h3><a href="https://arxiv.org/abs/2604.06761" target="_blank" rel="noopener noreferrer">A Massively Scalable Ligand-Protein Dissociation Dynamic Database Derived from Atomistic Molecular Modelling</a></h3>
               <p class="authors">Maodong Li, Dechin Chen, Zhijun Pan, <strong>Zhe Wang</strong>, Yi Isaac Yang</p>
               <p class="venue"><em>arXiv:2604.06761</em>, 2026</p>
+              <details class="paper-details"><summary>Summary</summary><p>DD-03B provides all-atom dissociation trajectories for 19,037 ligand–protein complexes, totaling about 0.3 billion simulation frames. The dataset supports research on drug–protein dissociation kinetics and generative models of unbinding.</p></details>
             </article>
           </div>
 
@@ -59,16 +68,19 @@
               <h3><a href="https://doi.org/10.1109/BIBM66473.2025.11356892" target="_blank" rel="noopener noreferrer">Phi-Former: A Pairwise Hierarchical Approach for Compound-Protein Interactions Prediction</a></h3>
               <p class="authors"><strong>Zhe Wang</strong>, Zijing Liu, Chencheng Xu, Yuan Yao</p>
               <p class="venue"><em>IEEE International Conference on Bioinformatics and Biomedicine (BIBM)</em>, 2025</p>
+              <details class="paper-details"><summary>Summary</summary><p>Phi-Former models compound–protein interactions across atoms and molecular motifs using hierarchical representations and pairwise pretraining. Its predictions can highlight the atoms or motifs involved in an interaction.</p></details>
             </article>
             <article class="publication">
               <h3><a href="https://arxiv.org/abs/2504.18367" target="_blank" rel="noopener noreferrer">A Novel 4-D Dataset Paradigm for Studying Complete Ligand-Protein Dissociation Dynamics</a></h3>
               <p class="authors">Maodong Li, Jiying Zhang, <strong>Zhe Wang</strong>, Bin Feng, Wenqi Zeng, Dechin Chen, Zhijun Pan, Yu Li, Zijing Liu, Yi Isaac Yang</p>
               <p class="venue"><em>arXiv:2504.18367</em>, 2025</p>
+              <details class="paper-details"><summary>Summary</summary><p>The paper introduces DD-13M, a time-resolved dataset of more than 26,000 ligand–protein dissociation processes, and UnbindingFlow, a generative model trained to produce dissociation trajectories and predict off-rates.</p></details>
             </article>
             <article class="publication">
               <h3><a href="https://doi.org/10.1609/aaai.v39i22.34513" target="_blank" rel="noopener noreferrer">Enhancing NLU in Large Language Models Using Adversarial Noisy Instruction Tuning</a></h3>
               <p class="authors">Shengyuan Bai, Qibin Li, <strong>Zhe Wang</strong>, Nai Zhou, Nianmin Yao</p>
               <p class="venue"><em>AAAI Conference on Artificial Intelligence (AAAI)</em>, 2025</p>
+              <details class="paper-details"><summary>Summary</summary><p>Adversarial Noisy Instruction Tuning improves language models on natural-language understanding tasks by training them to recognize and handle semantic distortions in noisy instructions.</p></details>
             </article>
           </div>
 
@@ -78,6 +90,7 @@
               <h3><a href="https://drive.google.com/file/d/17HeLaUBwZXjeeC5ho6ECyjuvogGMUyts/view" target="_blank" rel="noopener noreferrer">PF-ABGen: A Reliable and Efficient Antibody Generator via Poisson Flow</a></h3>
               <p class="authors">Chutian Huang, Zijing Liu, Shengyuan Bai, Linwei Zhang, Chencheng Xu, <strong>Zhe Wang</strong>, Yang Xiang, Yuanpeng Xiong</p>
               <p class="venue"><em>ICLR Workshop on Machine Learning for Drug Discovery</em>, 2023</p>
+              <details class="paper-details"><summary>Summary</summary><p>PF-ABGen explores Poisson flow for reliable and efficient antibody generation.</p></details>
             </article>
           </div>
 
@@ -87,16 +100,19 @@
               <h3><a href="https://ieeexplore.ieee.org/document/9178475" target="_blank" rel="noopener noreferrer">Effective Similarity Search on Heterogeneous Networks: A Meta-path Free Approach</a></h3>
               <p class="authors">Yue Wang, <strong>Zhe Wang</strong>, Ziyuan Zhao, Zijian Li, Xun Jian, Hao Xin, Lei Chen, Jianchun Song, Zhenhong Chen, Meng Zhao</p>
               <p class="venue"><em>IEEE Transactions on Knowledge and Data Engineering (TKDE)</em>, 2020</p>
+              <details class="paper-details"><summary>Summary</summary><p>This work introduces a meta-path-free way to measure similarity in heterogeneous networks, reducing the need for manually specified meta-paths while capturing structural and semantic relationships.</p></details>
             </article>
             <article class="publication">
               <h3><a href="https://ieeexplore.ieee.org/document/9101372" target="_blank" rel="noopener noreferrer">TransN: Heterogeneous Network Representation Learning by Translating Node Embeddings</a></h3>
               <p class="authors">Zijian Li, Wenhao Zheng, Xueling Lin, Ziyuan Zhao, <strong>Zhe Wang</strong>, Yue Wang, Xun Jian, Lei Chen, Qiang Yan, Tiezheng Mao</p>
               <p class="venue"><em>IEEE International Conference on Data Engineering (ICDE)</em>, 2020</p>
+              <details class="paper-details"><summary>Summary</summary><p>TransN learns representations for heterogeneous networks without requiring node labels or predefined meta-paths. It combines information from individual network views by translating embeddings between them.</p></details>
             </article>
             <article class="publication">
               <h3><a href="https://doi.org/10.1109/ICDE48307.2020.00212" target="_blank" rel="noopener noreferrer">HowSim: A General and Effective Similarity Measure on Heterogeneous Information Networks</a></h3>
               <p class="authors">Yue Wang, <strong>Zhe Wang</strong>, Ziyuan Zhao, Zijian Li, Xun Jian, Lei Chen, Jianchun Song</p>
               <p class="venue"><em>IEEE International Conference on Data Engineering (ICDE)</em>, 2020</p>
+              <details class="paper-details"><summary>Summary</summary><p>HowSim extends similarity measurement to heterogeneous information networks through a decay graph, capturing structural and semantic similarity without relying on manually selected meta-paths.</p></details>
             </article>
           </div>
         </section>

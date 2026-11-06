@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A small interactive pickleball court on Zhe Wang's academic homepage.">
+    <meta name="theme-color" content="#ffffff">
+    <title>Pickleball | Zhe Wang</title>
+    <script>if (new URLSearchParams(location.search).has('embed')) document.documentElement.classList.add('embedded-game');</script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="pickleball.css">
+    <script src="pickleball.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav wrap" aria-label="Main navigation">
+        <a class="brand" href="index.html">Zhe Wang</a>
+        <div class="nav-links">
+          <a href="index.html#about">About</a>
+          <a href="publications.html">Publications</a>
+          <a href="index.html#awards">Awards</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="game-page wrap">
+      <div class="game-heading">
+        <div>
+          <p class="game-eyebrow">A little court time</p>
+          <h1>Pickleball</h1>
+        </div>
+        <button class="game-reset" type="button" id="reset-rally" aria-label="New rally" title="New rally">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 2.64-6.36L3 8"/><path d="M3 3v5h5"/></svg>
+          <span>New rally</span>
+        </button>
+      </div>
+      <div class="court-frame">
+        <canvas id="pickleball-court" aria-label="Interactive pickleball court" tabindex="0"></canvas>
+      </div>
+      <p class="sr-only" id="game-status" role="status" aria-live="polite">Ready</p>
+    </main>
+
+    <footer class="site-footer wrap"><span>© 2026 Zhe Wang</span><span><a href="index.html">Back to homepage</a></span></footer>
+  </body>
+</html>

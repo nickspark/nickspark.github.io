@@ -1,0 +1,14 @@
+# Zhe Wang — Academic Homepage
+
+Zhe Wang is a PhD student in the Individualized Interdisciplinary Program at the Hong Kong University of Science and Technology, advised by Prof. Yuan Yao. His research covers AI for Science, AI-driven drug discovery, AI for chemistry, graph learning, and agentic research for scientific discovery.
+
+Zhe Wang is open to research and industry opportunities in AI for Science (AI4Sci), LLM post-training, and recursive self-improvement (RSI), and to faculty positions in computer science or interdisciplinary fields.
+
+For opportunities, contact Zhe Wang at zwangec@connect.ust.hk.
+
+## Pages
+
+- [Academic homepage](https://nickspark.github.io/): Bio, research interests, selected publications, honors, and internships.
+- [Full publication list](https://nickspark.github.io/publications.html): Published papers and arXiv preprints.
+- [Google Scholar](https://scholar.google.com/citations?user=bb7F_OQAAAAJ): Citation profile.
+- [Yao Lab](https://yao-lab.github.io/): Advisor's research group.
